@@ -1,0 +1,45 @@
+
+(rules PCB mk1.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (rule
+    (width 300.0)
+    (clearance 200.0)
+    (clearance 150.0 (type smd_to_turn_gap))
+    (clearance 50.0 (type smd))
+    (clearance 500.0 (type "board_edge"))
+  )
+  (padstack "Via[0-1]_600:300_um"
+    (shape
+      (circle F.Cu 600.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 600.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_600:300_um" "Via[0-1]_600:300_um" default
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (via_rule
+    default "Via[0-1]_600:300_um"
+  )
+  (class default
+    "Net-(D7-K)" /COL2 "Net-(D8-K)" /ROW1 "Net-(D6-K)" /ROW2 "Net-(D2-K)" /ROW0
+    "Net-(D10-K)" /COL1 /COL3 /COL0 "unconnected-(U1-3V3-Pad12)" "unconnected-(U1-GND-Pad13)" "unconnected-(U1-5V-Pad14)" "Net-(D1-K)"
+    "Net-(D4-K)" "Net-(D12-K)" "Net-(D3-K)" "Net-(D11-K)" "Net-(D5-K)" "Net-(D9-K)" /ENC1B /ENC1A
+    GND /ENC2B /ENC2A
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 300.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

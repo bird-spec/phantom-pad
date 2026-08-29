@@ -1,0 +1,86 @@
+** Drc report for mk1.kicad_pcb **
+** Created on 2026-08-29T19:02:24 **
+** Report includes: Errors, Warnings **
+
+** Found 17 DRC violations **
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(130.5199 mm, 56.8351 mm): Arc of U1 on F.Silkscreen
+    @(129.7500 mm, 56.0000 mm): PTH pad 7 [/COL3] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 40.7600 mm): PTH pad 1 [/ROW0] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 43.3000 mm): PTH pad 2 [/ROW1] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 45.8400 mm): PTH pad 3 [/ROW2] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 48.3800 mm): PTH pad 4 [/COL0] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 50.9200 mm): PTH pad 5 [/COL1] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 53.4600 mm): PTH pad 6 [/COL2] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(128.4750 mm, 39.8800 mm): Segment of U1 on F.Silkscreen
+    @(129.7500 mm, 56.0000 mm): PTH pad 7 [/COL3] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.2304 mm, 39.9246 mm): Arc of U1 on F.Silkscreen
+    @(145.0000 mm, 40.7600 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 56.0000 mm): PTH pad 8 [/ENC1A] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 53.4600 mm): PTH pad 9 [/ENC1B] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 50.9200 mm): PTH pad 10 [/ENC2A] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 48.3800 mm): PTH pad 11 [/ENC2B] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 45.8400 mm): PTH pad 12 [unconnected-(U1-3V3-Pad12)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 43.3000 mm): PTH pad 13 [unconnected-(U1-GND-Pad13)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(146.2750 mm, 56.8800 mm): Segment of U1 on F.Silkscreen
+    @(145.0000 mm, 40.7600 mm): PTH pad 14 [unconnected-(U1-5V-Pad14)] of U1
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(144.2750 mm, 56.8800 mm): Arc of U1 on F.Silkscreen
+    @(145.0000 mm, 56.0000 mm): PTH pad 8 [/ENC1A] of U1
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **
