@@ -28,6 +28,7 @@ enum layers { DRONE, PAD };
 #define DR_RR  KC_F20   //               right
 #define DR_E1  KC_F21   // encoder 1 button
 #define DR_E2  KC_F22   // encoder 2 button
+#define DR_E3  KC_F24   // 12th key (bottom-right); spare drone action
 #define DR_STOP KC_F23  // stabilise and land
 
 #define DR_THRD LCTL(KC_F13)   // throttle down
@@ -40,7 +41,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [DRONE] = LAYOUT(
       DR_LU,   DR_LD,   DR_LL,   DR_LR,
       DR_RU,   DR_RD,   DR_RL,   DR_RR,
-      DR_STOP, DR_E1,   DR_E2
+      DR_STOP, DR_E1,   DR_E2,   DR_E3
   ),
 
   // Emergency stays on the same key and keeps sending the same code on both
@@ -49,7 +50,7 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [PAD] = LAYOUT(
       KC_W,    KC_S,    KC_A,    KC_D,
       KC_UP,   KC_DOWN, KC_LEFT, KC_RGHT,
-      DR_STOP, KC_MPLY, KC_MUTE
+      DR_STOP, KC_MPLY, KC_MUTE, KC_MNXT
   ),
 };
 
